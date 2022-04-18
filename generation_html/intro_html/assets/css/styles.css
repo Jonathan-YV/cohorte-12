@@ -1,0 +1,23 @@
+p{
+    color: red;
+}
+
+.hola{
+    color: aqua;
+}
+.saludo{
+    color: rgb(70, 226, 70);
+}
+
+.negritas{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pikachu{
+    width: 500px;
+}
+
+#saludoInicial{
+    color: red;
+}
