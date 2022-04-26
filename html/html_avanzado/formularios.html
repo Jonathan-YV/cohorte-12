@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+
+    <!-- CSS propios -->
+    <link rel="stylesheet" href="assets/css/formularios.css">
+</head>
+<body>
+    <!-- <form action="" method="post"></form> -->
+    <form>
+        <input type="text" placeholder="Nombre" minlength="6" maxlength="10">
+        <input type="text" placeholder="Apellido" size="10">
+        <input type="number" min="0" max="100" step="10">
+        <input type="date">
+        <input type="month">
+        <input type="week">
+        <input type="datetime-local">
+        <input type="time">
+        <input type="password">
+        <input type="file">
+        <input type="range" min="1" max="4">
+        <input type="checkbox" value="hola" checked>
+        <input type="radio" name="n1" value="1">
+        <input type="radio" name="n2" value="2">
+        <input type="email" required>
+        <select name="menu" size="1">
+            <option>Uno</option>
+            <option value="1">Dos</option>
+            <option value="2" selected>Tres</option>
+        </select>
+        <textarea name="" id="" cols="10" rows="5"></textarea>
+        <input type="color" id="inputColor" value="#ff0000">
+        <input type="reset" value="Limpiar">
+        <input type="submit" value="Mandar">
+    </form>
+
+    <hr>
+    <h1>Formulario</h1>
+    <form class="formulario" id="formularioDatos">
+        <div class="nombre">
+            <label class="acomodoLabel" for="nombre">Nombre</label>
+            <input class="colorFondo" type="text" name="nombre" id="nombre" required placeholder="Nombre">
+        </div>
+        <div class="apellido">
+            <label class="acomodoLabel" for="apellido">Apellido</label>
+            <input class="colorFondo" type="text" name="apellido" id="apellido" placeholder="Apellido">
+        </div>
+        <div class="password">
+            <label class="acomodoLabel" for="password">Contraseña</label>
+            <input class="colorFondo" name="password" type="password" id="password" >
+        </div>
+        <div class="correo">
+            <label class="acomodoLabel" for="correo">Correo</label>
+            <input class="colorFondo" name="email" type="email"  id="correo">
+        </div>
+        <input type="checkbox" name="check" checked>
+        <div class="enviar">
+            <input class="btn-enviar" type="submit" value="Enviar">
+            <!-- <button type="submit"><img width="10" src="https://cdn140.picsart.com/289521541024211.png" alt="">Enviar</button> -->
+        </div>
+    </form>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+
+    
+</body>
+</html>
