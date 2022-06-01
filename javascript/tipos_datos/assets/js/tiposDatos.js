@@ -19,8 +19,6 @@ console.log(typeof(variableIndefinida))
  */
 
 
-
-
 /* Var, let y const */
 
 /* 
